@@ -5,6 +5,7 @@ x8 = oct(x)[2:]
 x16 = hex(x)[2:]
 print(x, x2, x8, x16)
 
+
 # перевод в двугую систему счисления
 s = 5 ** 2019 - 5 ** 1019 + 25 ** 600 - 125
 k = 0
@@ -14,6 +15,7 @@ while s > 0:
     t += (str(s % 5))
     s = s // 5
 print(t.count('4'))
+
 
 # itertools
 import itertools
