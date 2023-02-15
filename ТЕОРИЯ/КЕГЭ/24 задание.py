@@ -1,5 +1,5 @@
 # подсчет конкретной буквы 1
-f = open('/Users/klimka1010/PycharmProjects/myFirstProject/боты/задачки/19-21/24var09-13.txt')
+f = open('/боты/задачки/19-21/24var09-13.txt')
 a = f.readline()
 k = 0
 for i in range(len(a)):
@@ -8,16 +8,16 @@ for i in range(len(a)):
 print(k)
 
 # подсчет конкретной буквы 2
-f = open('/Users/klimka1010/PycharmProjects/myFirstProject/боты/задачки/19-21/24var09-13.txt')
+f = open('/боты/задачки/19-21/24var09-13.txt')
 a = f.readline()
 print(a.count('Z'))
 
 # подсчет максимальной последовательности одной буквы через количество таких последовательностей
-f = open('/Users/klimka1010/PycharmProjects/myFirstProject/боты/задачки/19-21/24var09-13.txt')
+f = open('/боты/задачки/19-21/24var09-13.txt')
 a = f.readline()
 print(a.count('Z' * 11))
 
-f = open('/Users/klimka1010/PycharmProjects/myFirstProject/боты/задачки/19-21/24var09-13.txt')
+f = open('/боты/задачки/19-21/24var09-13.txt')
 a = f.readline()
 k = 0
 ans = 0
@@ -31,7 +31,7 @@ for i in range(len(a)):
 print(ans)
 
 # сравнение с предыдущим символом для нахождения максимальной последовательности одной буквы
-f = open('/Users/klimka1010/PycharmProjects/myFirstProject/боты/задачки/19-21/24var09-13.txt')
+f = open('/боты/задачки/19-21/24var09-13.txt')
 a = f.readline()
 k = 1
 ans = 0
@@ -45,7 +45,7 @@ for i in range(1, len(a)):
 print(ans)
 
 # количество одинакового символа через одну строчку
-f = open('/Users/klimka1010/PycharmProjects/myFirstProject/боты/задачки/19-21/24var09-13.txt')
+f = open('/боты/задачки/19-21/24var09-13.txt')
 a = f.readline()
 k = 1
 ans = 1

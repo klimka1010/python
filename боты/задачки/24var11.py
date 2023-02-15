@@ -10,8 +10,6 @@ for i in mass:
 print(ans)
 
 
-
-#
 # for i in range(len(a)):
 #     while 'Z' in a:
 #         if 'Z' in a:
