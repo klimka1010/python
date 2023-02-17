@@ -1,4 +1,4 @@
-f=open('24var09-13.txt')
+f=open('../../задачки/24var09-13.txt')
 a=f.readline()
 k=0
 ans=0
