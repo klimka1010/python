@@ -21,7 +21,7 @@ pd()
 for i in range (2):
     fd(70*20)
     rt(90)
-    fd(80*10)
+    fd(80*20)
     rt(90)
 up()
 for x in range(-20,20):
