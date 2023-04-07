@@ -1,7 +1,7 @@
-def f(x, end):
-    if x < end: return 0
-    if x == end: return 1
-    return f(x - 2, end) + f(x // 2, end)
+def f(n, end):
+    if n < end: return 0
+    if n == end: return 1
+    return f(n - 2, end) + f(n // 2, end)
 
 
 print(f(40, 10) * f(10, 2))
