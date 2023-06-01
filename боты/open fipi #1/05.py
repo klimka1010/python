@@ -8,6 +8,6 @@ for N in range(1,100):
         n = '11' + n + '11'
 
     r = int(n, 2)
-    if r>255:
+    if r>225:
         a.append(r)
-        print(sorted(a))
+print(min(a))
