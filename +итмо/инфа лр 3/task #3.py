@@ -3,14 +3,14 @@
 # https://jsonformatter.org/yaml-to-xml // перевод YAML -> XML
 
 # открываем XML файл, лежит в папке с SC
-f = open('xml.xml')
+xmlFile = open('file.xml')
 
 # открываем XML файл, лежит в папке с SC, даем права для записи в файл
-yaml = open("yaml.yaml", 'w')
+yamlFile = open("file.yaml", 'w')
 
-# читаем файл, "разделяем" его построчно, записываем значения в S
-s = f.read().split('\n')
-for i in s:
+# читаем файл, "разделяем" его построчно, записываем значения в "f"
+f = xmlFile.read().split('\n')
+for i in f:
 
     # если у нас "простая" команда, то заменяем "<" и ">" на "" и ":" соответственно
     if i.count('<') == 1:
@@ -27,10 +27,7 @@ for i in s:
         i = i.replace('/employees:', '')
 
     # записываем получившийся файл в YAML
-    print(i, file=yaml)
+    print(i, file=yamlFile)
 
-# закрываем открытые файлы
-yaml.close()
-f.close()
 
 print('\n', 'Программа запущена успешно!')
